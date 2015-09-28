@@ -19,11 +19,33 @@ replace_client_repo_root_path = os.path.join(YUI_ROOT, init_dir)
 client_repo_resouces_path = os.path.join(
     replace_client_repo_root_path, YUI_CLIENT_RESOUCES_FOR_ROOT)
 
-os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfo.csv"))
-os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfo.csv.meta"))
-os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfoNew.csv"))
-os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfoNew.csv.meta"))
-os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfoTutorial.csv"))
-os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfoTutorial.csv.meta"))
+
+os.remove(os.path.join(client_repo_resouces_path, "Yui_Player_uuid.txt"))
+os.remove(os.path.join(client_repo_resouces_path, "Yui_Player_Device_Id.txt"))
+
+# try:
+#     os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfo.csv"))
+# except:
+#     pass
+# try:
+#     os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfo.csv.meta"))
+# except:
+#     pass
+# try:
+#     os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfoNew.csv"))
+# except:
+#     pass
+# try:
+#     os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfoNew.csv.meta"))
+# except:
+#     pass
+# try:
+#     os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfoTutorial.csv"))
+# except:
+#     pass
+# try:
+#     os.remove(os.path.join(client_repo_resouces_path, "ResFileVersionInfoTutorial.csv.meta"))
+# except:
+#     pass
 
 print("初期化完了")
