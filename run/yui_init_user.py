@@ -11,6 +11,7 @@ from yui.constants import (
 from common.dir_manager import select_dir
 
 # 初期化するリポジトリフォルダを取得
+# クライアントのリポジトリはclientという文字列を含むフォルダである必要がある
 init_dir = select_dir(YUI_ROOT, re.compile(r'.*client.*'))
 
 print("clientリポジトリ({}フォルダ)のユーザを初期化します\n".format(init_dir))

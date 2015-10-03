@@ -14,6 +14,7 @@ from yui.constants import (
 from common.dir_manager import select_dir
 
 # コピー先のパスを取得
+# リソースのリポジトリはresourcesという文字列を含むフォルダである必要がある
 copy_out = select_dir(YUI_ROOT, re.compile(r'.*resources.*'))
 
 print("resourcesリポジトリのcsvを、dataリポジトリのcsvに置き換えます\n")
