@@ -20,7 +20,6 @@ replace_client_repo_root_path = os.path.join(YUI_ROOT, init_dir)
 client_repo_resouces_path = os.path.join(
     replace_client_repo_root_path, YUI_CLIENT_RESOUCES_FOR_ROOT)
 
-
 os.remove(os.path.join(client_repo_resouces_path, "Yui_Player_uuid.txt"))
 os.remove(os.path.join(client_repo_resouces_path, "Yui_Player_Device_Id.txt"))
 

@@ -3,6 +3,9 @@ from os import path
 
 HOME = path.expanduser("~")
 
+# 使用Unity
+YUI_UNITY_PATH = "/Applications/Unity4.6.8/Unity.app/Contents/MacOS/Unity"
+
 # YUIプロジェクトのROOT
 YUI_ROOT = path.join(HOME, "yui/")
 
