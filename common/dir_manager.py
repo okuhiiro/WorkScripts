@@ -4,6 +4,7 @@
 """
 import os
 import re
+import shutil
 
 
 def select_dir(path, pattern):
@@ -40,6 +41,22 @@ def select_dir(path, pattern):
 
     return select_dir
 
+
+def my_rm(path):
+    """
+    ファイルやディレクトリ消す
+    存在しない場合はなにもしない
+    :param path: 消すファイルやディレクトリのパス
+    """
+    if not os.path.exists(path):
+        return
+
+    if os.path.isdir(path):
+        shutil.rmtree(path)
+    else:
+        os.remove(os.path.join(path))
+
+    print ("{}を消しました".format(path))
 
 
 
