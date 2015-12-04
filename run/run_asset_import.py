@@ -11,8 +11,8 @@ from yui.constants import (
 # 起動するUnityプロジェクトパスのリスト
 path_list = (
     os.path.join(YUI_ROOT, "resources/yui"),
-    os.path.join(YUI_ROOT, "resources_develop_ios/yui"),
-    os.path.join(YUI_ROOT, "client_yui_android/yui"),
+    #os.path.join(YUI_ROOT, "resources_develop_ios/yui"),
+    #os.path.join(YUI_ROOT, "client_yui_android/yui"),
 )
 
 for path in path_list:
