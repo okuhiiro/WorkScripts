@@ -26,11 +26,13 @@ YUI_SERVER_JSON_FOR_ROOT = "application/data/json/"
 # resourcesリポジトリのフォルダは複数想定
 # Rootからのcsvフォルダへのパス
 YUI_RESOURCES_CSV_FOR_ROOT = "yui/Assets/Resources/csv/"
+YUI_RESOURCES_ASSETBUNDLE_FOR_ROOT = "yui/Assets/assetbundle/"
 
 # clientリポジトリ
 # clientリポジトリのフォルダは複数想定
 # RootからのResoucesフォルダ
 YUI_CLIENT_RESOUCES_FOR_ROOT = "yui/Assets/Resources/"
+YUI_CLIENT_RESOUCES_DATA_FOR_ROOT = "yui/Assets/Resources/Data/"
 
 
 
