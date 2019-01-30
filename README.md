@@ -5,12 +5,19 @@ Macで動作することを前提としています.
 # 初期設定
 ### Pythonバージョン
 3.4.3で動作確認をしているため、ない場合はインストールします.
-このディレクトリ以下は3.4.3のPythonで動作する仮想環境などの設定をしてください.
 
-ex)
+例) pycharmの場合
+
+![pycharm](Images/pycharm_settings.png)
+
+例) Macのpyenvの場合
+
+このディレクトリ以下は3.4.3のPythonで動作する仮想環境などの設定をしてください.
 ```bash
 $ pyenv local 3.4.3
 ```
+
+### pip install一覧
 
 ### プロジェクトROOTをPYTHONPATHに追加し、ROOTからの絶対importを行えるようにします.
 .bashrcや.zshrcに以下の記述を追加します.

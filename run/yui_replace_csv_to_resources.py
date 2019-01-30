@@ -11,7 +11,7 @@ from yui.constants import (
     YUI_DATA_CSV_DIR,
     YUI_RESOURCES_CSV_FOR_ROOT
 )
-from common.dir_manager import select_dir
+from common.dir_file_manager import select_dir
 
 # コピー先のパスを取得
 # リソースのリポジトリはresourcesという文字列を含むフォルダである必要がある

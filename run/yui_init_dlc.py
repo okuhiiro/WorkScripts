@@ -9,7 +9,7 @@ import shutil
 from yui.constants import (
     YUI_ROOT, YUI_CLIENT_RESOUCES_FOR_ROOT
 )
-from common.dir_manager import select_dir, my_rm
+from common.dir_file_manager import select_dir, my_rm
 
 # 初期化するリポジトリフォルダを取得
 # クライアントのリポジトリはclientという文字列を含むフォルダである必要がある

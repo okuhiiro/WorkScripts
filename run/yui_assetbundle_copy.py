@@ -5,7 +5,7 @@ resoucesリポジトリの.assetbundleをclientにcopyする
 import os
 import re
 import subprocess
-from common.dir_manager import select_dir
+from common.dir_file_manager import select_dir
 import shutil
 from yui.constants import (
     YUI_ROOT,

@@ -11,7 +11,7 @@ from yui.constants import (
     YUI_DATA_JSON_DIR,
     YUI_SERVER_JSON_FOR_ROOT
 )
-from common.dir_manager import select_dir
+from common.dir_file_manager import select_dir
 
 # コピー先のパスを取得
 # サーバーのリポジトリはserverという文字列を含むフォルダである必要がある
